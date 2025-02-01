@@ -272,7 +272,7 @@ class PrivateKey(BaseKey):
                         a valid input to ``decimal.Decimal``. The currency
                         must be :ref:`supported <supported currencies>`.
         :type outputs: ``list`` of ``tuple``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
@@ -343,7 +343,7 @@ class PrivateKey(BaseKey):
                         a valid input to ``decimal.Decimal``. The currency
                         must be :ref:`supported <supported currencies>`.
         :type outputs: ``list`` of ``tuple``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
@@ -414,7 +414,7 @@ class PrivateKey(BaseKey):
         :param compressed: Whether or not the ``address`` corresponds to a
                            compressed public key. This influences the fee.
         :type compressed: ``bool``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
@@ -671,7 +671,7 @@ class PrivateKeyTestnet(BaseKey):
                         a valid input to ``decimal.Decimal``. The currency
                         must be :ref:`supported <supported currencies>`.
         :type outputs: ``list`` of ``tuple``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
@@ -742,7 +742,7 @@ class PrivateKeyTestnet(BaseKey):
                         a valid input to ``decimal.Decimal``. The currency
                         must be :ref:`supported <supported currencies>`.
         :type outputs: ``list`` of ``tuple``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
@@ -813,7 +813,7 @@ class PrivateKeyTestnet(BaseKey):
         :param compressed: Whether or not the ``address`` corresponds to a
                            compressed public key. This influences the fee.
         :type compressed: ``bool``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
@@ -1107,7 +1107,7 @@ class MultiSig:
                         a valid input to ``decimal.Decimal``. The currency
                         must be :ref:`supported <supported currencies>`.
         :type outputs: ``list`` of ``tuple``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
@@ -1184,7 +1184,7 @@ class MultiSig:
         :param compressed: Whether or not the ``address`` corresponds to a
                            compressed public key. This influences the fee.
         :type compressed: ``bool``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
@@ -1435,7 +1435,7 @@ class MultiSigTestnet:
                         a valid input to ``decimal.Decimal``. The currency
                         must be :ref:`supported <supported currencies>`.
         :type outputs: ``list`` of ``tuple``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
@@ -1512,7 +1512,7 @@ class MultiSigTestnet:
         :param compressed: Whether or not the ``address`` corresponds to a
                            compressed public key. This influences the fee.
         :type compressed: ``bool``
-        :param fee: The number of satoshi per byte to pay to miners. By default
+        :param fee: The number of satoshi per vByte to pay to miners. By default
                     Bit will poll `<https://mempool.space/api/v1/fees/recommended>`_ and use a fee
                     that will allow your transaction to be confirmed as soon as
                     possible.
